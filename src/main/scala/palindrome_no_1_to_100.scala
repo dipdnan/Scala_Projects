@@ -1,24 +1,24 @@
 object palindrome_no_1_to_100 {
   def main(args: Array[String]): Unit = {
 
-    println("Palindrome numbers are:")
-    for (i <- 1 to 100) {
-    var n = i
-    var a = n
-    var rev = 0
-
-    while (a > 0) {
-      val rem = a % 10
-      rev = rev * 10 + rem
-      a = a / 10
-    }
-
-    if (n == rev)
+    for (i <- 1 to 100)
     {
-      println(n)
-    }
-  }
+        var original_no = i
+        var reminder = 0;
+        var sum = 0;
 
+      while (original_no >0)
+    {
+      reminder = original_no % 10;
+      sum = sum * 10 + reminder;
+      original_no = original_no / 10;
+    }
+
+     if(i==sum)
+     {
+       println(s"$i is Palindrome") // to dispaly the palindrome number
+     }
+    }
   }
 }
 
