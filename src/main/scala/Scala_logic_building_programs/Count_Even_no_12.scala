@@ -15,5 +15,6 @@ object Count_Even_no_12 {
      }
    }
 println(s"The count even $start and $end : $cnt")
+   scala.io.StdIn.readInt()
  }
 }

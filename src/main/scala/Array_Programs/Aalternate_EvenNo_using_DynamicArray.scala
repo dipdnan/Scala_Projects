@@ -15,13 +15,11 @@ def main(args:Array[String]):Unit={
       arr(i)=StdIn.readInt()
    }
 
-
      println("The array alternative even no are: ")
      for(i<-0 until size )
      {
         if(arr(i)%2==0)
         {
-
           var cnt = arr(i) + 4
           println(s"The Array elements are :$cnt")
         }
