@@ -3,17 +3,17 @@ package Scala_logic_building_programs
 object Print_AVG_Value_18 {
  def main(args:Array[String]):Unit={
 
-   val start = 1
-   val end = 10
-   var sum = 0
-   var count = 0
+   val start = 24
+   val end = 100
+   val step = 2
 
-   for(num <-start to end) {
-     sum = num +1  //1,2,3,4,5,6,7,8,9,10,11
-     count = count +1  // 1,2,3,4,5,6,7,8,9,10
-   }
-   // val sum1 = scala.io.StdIn.readDouble()
-   val avg = sum.toDouble/count  //  55/10  == 5.5
-   println(s"The average value from $start to $end is: $avg")
+   // Calculate the sum of numbers
+   val sum = (start to end by step).sum.toDouble
+
+   // Calculate the average
+   val count = ((end - start) / step) + 1
+   val average = sum / count
+
+   println(s"The average of the sequence is: $average")
  }
 }

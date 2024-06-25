@@ -4,7 +4,7 @@ object Range_No_Assign_Grade_5 {
   def main(args:Array[String]):Unit ={
 
     println(s"Enter Any number: ")
-    val no = scala.io.StdIn.readInt()
+    val no = scala.io.StdIn.readDouble()
 
     if(!(no >=0 && no <=100)){
         println(s"The Given $no is an Invalid input") }
@@ -21,6 +21,6 @@ object Range_No_Assign_Grade_5 {
     else if (no > 0 && no <= 35) {
       println(s"DUMP") }
     }
-
+scala.io.StdIn.readInt()
 
 }

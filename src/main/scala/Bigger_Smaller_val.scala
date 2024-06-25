@@ -6,23 +6,23 @@ object Bigger_Smaller_val {
     var c = 30
 
     if (a < b && a < c) {
-      print("a is smaller than b and c")
+      print(s"$a is smaller than $b and $c")
     }
     else if (b < a && b < c) {
-      print("b is smaller than a and b")
+      print(s"$b is smaller than $a and $b")
     }
     else {
-      print("c is smaller")
+      print(s"$c is smaller")
     }
 
     if (a > b && a > c) {
-      print("a is bigger than b and c")
+      print(s"$a is bigger than $b and $c")
     }
     else if (b > a && b > c) {
-      print("b is bigger than a and b")
+      print(s"$b is bigger than $a and $b")
     }
     else {
-      print("c is bigger number")
+      print(s" is bigger number")
     }
   }
 }

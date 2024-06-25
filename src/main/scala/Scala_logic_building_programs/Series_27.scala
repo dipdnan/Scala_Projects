@@ -4,15 +4,15 @@ object Series_27 {
 def main(args:Array[String]):Unit={
 
   val start = 1
-  val end = 15
-  var cnt =0
+  val end = 23
+
 
   for(i<-start to end){
-    print(i+",")
-    cnt = cnt + 1
-    if(cnt%3==1){
-      print("factor of three")
-    }
+     if(i%3==0){
+      print("factor of three"+ ",")
+    } else {
+       print(i+",")
+     }
 
   }
 }

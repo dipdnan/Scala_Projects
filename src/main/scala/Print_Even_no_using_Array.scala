@@ -7,9 +7,8 @@ def main(args:Array[String]):Unit={
   {
     if (arr(i) % 4 == 0)
     {
-      println(arr(i))
+      println(arr(i)+",")
     }
   }
-
 }
 }

@@ -1,7 +1,11 @@
 object Max_Min_nos {
 def main(args:Array[String]):Unit= {
+
+  println("Enter 1st value : ")
   val a = scala.io.StdIn.readInt()
+  println("Enter 2st value : ")
   val b = scala.io.StdIn.readInt()
+  println("Enter 3st value : ")
   val c = scala.io.StdIn.readInt()
 
   if(a>b)
