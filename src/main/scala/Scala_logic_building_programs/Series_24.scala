@@ -7,6 +7,11 @@ def main(args:Array[String]):Unit={
     print("5,10"+",")
   }
 
-
-}
+//  for (i <- 1 to 7) {
+//    if (i % 2 == 0) {
+//      print("10,")
+//    } else {
+//      print("5,")
+//    }
+  }
 }

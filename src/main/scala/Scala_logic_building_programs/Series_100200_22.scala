@@ -5,13 +5,8 @@ def main(args:Array[String]):Unit={
 
   val incre = 100
 
-  for(i<-1 to 20){
+  for(i<-1 to 100){
     var value = i * incre
-    print(value+", ")
-
-//  if(i!=10){        //  10!=10  -- true condition
-//    println(", ")
-//  }
-}
+    print(value+", ") }
 }
 }

@@ -20,3 +20,22 @@ def main(args:Array[String]):Unit={
   }
 }
 }
+/* Output :
+Enter Array Size :
+6
+Array elements are :6
+Enter Array elements: 0
+18
+Enter Array elements: 1
+66
+Enter Array elements: 2
+20
+Enter Array elements: 3
+5
+Enter Array elements: 4
+00
+Enter Array elements: 5
+13
+The array of index 1 divisible by 3 & 11: 66
+The array of index 4 divisible by 3 & 11: 0
+ */

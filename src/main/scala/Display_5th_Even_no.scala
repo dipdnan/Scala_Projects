@@ -4,7 +4,7 @@ object Display_5th_Even_no {
   def main(args: Array[String]): Unit =
   {
     var cnt=1
-    for (cnt <- 1 to 20)
+    for (cnt <- 0 to 20 by 5)
     {
       cnt == 5
       println(s"5th even no is : $cnt")

@@ -21,13 +21,13 @@ def main(args:Array[String]):Unit={
   val setB:Set[Int]=Set(4,5,6,7,8)
 
   val intersection:Set[Int]=setA.intersect(setB)
-  println(intersection)
+  println("Intersection : "+intersection)
 
   val union: Set[Int] = setA.union(setB)
-  println(union)
+  println("Union : "+union)
 
   val diff: Set[Int] = setA.diff(setB)
-  println(diff)
+  println("Difference/Minus : "+diff)
 
   val issubset: Boolean= setA.subsetOf(setB)
   println(issubset)

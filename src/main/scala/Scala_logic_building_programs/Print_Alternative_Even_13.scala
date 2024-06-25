@@ -10,11 +10,11 @@ object Print_Alternative_Even_13 {
     //    var count = 0
 
     println("The alternative even from 20 to 140 are : ")
-    for (no <- start to end by 4) {
-      if (no % 2 == 0)
-      {
-        println(no)
-      }
+    for (no <- start to end by 4) { print(no+ ",")
+//      if (no % 2 == 0)
+//      {
+//        println(no+ ",")
+//      }
     }
   }
 }

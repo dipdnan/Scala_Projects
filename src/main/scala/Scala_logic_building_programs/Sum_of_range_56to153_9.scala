@@ -1,16 +1,13 @@
 package Scala_logic_building_programs
 
 object Sum_of_range_56to153_9 {
- def main(args:Array[String]):Unit={
+ def main(args:Array[String]):Unit= {
+      val start = 56
+      val end = 153
 
-   println("Enter Any number :")
-   val no = scala.io.StdIn.readInt()
-   var sum = 0
-
-   for(no<-56 to 153)
-     {
-       sum=sum+no
-     }
-    println(s"The sum of nos from 56 to 153 is : $sum")
+       // Calculate the sum of numbers from start to end
+       val sum = (start to end).sum
+       println(s"The sum of numbers from $start to $end is: $sum")
+   scala.io.StdIn.readInt()
  }
 }

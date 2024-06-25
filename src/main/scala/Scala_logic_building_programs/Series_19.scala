@@ -3,14 +3,16 @@ package Scala_logic_building_programs
 object Series_19 {
 def main(args:Array[String]):Unit={
 
-  var sum = 0
+  val firstTerm = 52
+  val lastTerm = 1022
+  val commonDifference = 10
 
+  // Calculate the number of terms
+  val numberOfTerms = (lastTerm - firstTerm) / commonDifference + 1
 
-  for( i<-5 to 10)
-    {
-      val square = i * i
-      sum =square +1
-    }
-    println(s"sum of square : $sum")
+  // Calculate the sum using the formula for the sum of an arithmetic series
+  val sum = (numberOfTerms / 2.0) * (firstTerm + lastTerm)
+
+  println(s"The sum of the series is: $sum")
 }
 }

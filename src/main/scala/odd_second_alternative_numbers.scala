@@ -7,7 +7,7 @@ def main(args:Array[String]):Unit={
   println("Odd second alternative numbers are:")
   for (num <- start to end by 6) {
     if (num % 2 != 0) {
-      println(num)
+      print(num+ ",")
     }
   }
 }
