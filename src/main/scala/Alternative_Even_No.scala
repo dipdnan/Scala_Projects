@@ -1,3 +1,6 @@
+
+/* Display the Alternate Even number entering from user input */
+
 import scala.io.StdIn
 object Alternative_Even_No {
   def main(args:Array[String]):Unit={
@@ -16,7 +19,6 @@ object Alternative_Even_No {
         println(i)
       }
     }
-
   }
 }
 /* Output:
