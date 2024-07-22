@@ -1,9 +1,11 @@
+
+/*Find out the bigger and smaller number from given input */
 object Bigger_Smaller_val {
   def main(args:Array[String]): Unit = {
 
-    var a = 10
-    var b = 20
-    var c = 30
+    val a = 100
+    val b = 20
+    val c = 1
 
     if (a < b && a < c) {
       print(s"$a is smaller than $b and $c")
@@ -12,7 +14,7 @@ object Bigger_Smaller_val {
       print(s"$b is smaller than $a and $b")
     }
     else {
-      print(s"$c is smaller")
+      print(s"$c is smaller.")
     }
 
     if (a > b && a > c) {
@@ -26,3 +28,6 @@ object Bigger_Smaller_val {
     }
   }
 }
+/*Output :
+1 is smaller.100 is bigger than 20 and 1
+ */

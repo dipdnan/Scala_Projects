@@ -1,3 +1,4 @@
+/*Display Palindrome number */
 object Palindrome {
   def main(args: Array[String]): Unit =
   {
@@ -24,3 +25,9 @@ object Palindrome {
     }
   }
 }
+/*Output :
+Enter any number :
+151
+The Reverse number is :  151
+The given number is Palindrome :  151
+ */

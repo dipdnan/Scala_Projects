@@ -1,13 +1,17 @@
+/* Identify Positive and Negative Value */
 object Positive_Negative_nos {
 def main(args:Array[String]): Unit = {
   println(s"Enter Any value : ")
-  val c = scala.io.StdIn.readFloat()
+  val Value = scala.io.StdIn.readFloat()
 
-  // val a = -2
-  if(c>=0)
-    println(s"The given value is Positive")
+  if( Value >= 0)
+    println(s"$Value is Positive Value")
   else
-    println(s"The given no is Negative")
-
+    println(s"$Value is Negative Value")
 }
 }
+/* Output :
+Enter Any value :
+-57
+-57.0 is Negative Value
+ */

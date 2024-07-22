@@ -1,3 +1,4 @@
+/* Display Minimum and maximum number from given input */
 object Max_Min_nos {
 def main(args:Array[String]):Unit= {
 
@@ -23,6 +24,16 @@ def main(args:Array[String]):Unit= {
 
     }
   }
+  /* Output :
+  Enter 1st value :
+  151
+  Enter 2st value :
+  23
+  Enter 3st value :
+  22
+  a is greater 151
+
+   */
 
 
 }

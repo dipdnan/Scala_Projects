@@ -1,3 +1,4 @@
+/* Display the Even number and Odd number */
 object EvenOdd {
   def main(args: Array[String]): Unit = {
     var s = ' '
@@ -15,5 +16,10 @@ object EvenOdd {
 
     } while (s == 'y' || s == 'Y')
   }
-
 }
+/* Output :
+Enter any value :
+886
+The given no is even : 886
+if you want to continue press 'y' otherwise 'n' :
+ */

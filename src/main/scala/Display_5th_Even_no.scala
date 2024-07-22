@@ -1,22 +1,20 @@
-import scala.Byte.MaxValue.==
 
+/* display the 5th Even number */
+import scala.Byte.MaxValue.==
 object Display_5th_Even_no {
   def main(args: Array[String]): Unit =
   {
-    var cnt=1
-    for (cnt <- 0 to 20 by 5)
-    {
-      cnt == 5
-      println(s"5th even no is : $cnt")
+    for (i <- 0 until 5) {
+      val evenNumber = i * 5
+      println(s"${i + 1}th even no is : $evenNumber")
     }
-      var num =1
-      if(num%2 ==0)
-        {
-          println(num)
-          num=num+2;
-        }
-        num=num+1;
     }
   }
-
+/*Output :
+1th even no is : 0
+2th even no is : 5
+3th even no is : 10
+4th even no is : 15
+5th even no is : 20
+ */
 

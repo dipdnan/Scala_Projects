@@ -1,3 +1,4 @@
+/*Display Palindrome number from 1 to 100*/
 object palindrome_no_1_to_100 {
   def main(args: Array[String]): Unit = {
 
@@ -16,7 +17,7 @@ object palindrome_no_1_to_100 {
 
      if(i==sum)
      {
-       println(s"$i is Palindrome") // to dispaly the palindrome number
+       print(i+ ", ") // to dispaly the palindrome number
      }
     }
   }
